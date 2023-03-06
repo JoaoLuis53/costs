@@ -1,0 +1,57 @@
+{
+  "projects": [
+    {
+      "name": "Projeto  Costs",
+      "budget": "8000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Wildscheine",
+      "budget": "18000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 13000,
+      "services": [
+        {
+          "name": "engenharia de dados",
+          "cost": "5000",
+          "description": "gerenciar dados",
+          "id": "96bcac52-a44c-4871-9076-fa063bdcc1b5"
+        },
+        {
+          "name": "Dev Php",
+          "cost": "8000",
+          "description": "fazer refatoração do Backend para php",
+          "id": "f9885e81-bd41-4aaf-b445-60eed889917e"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
